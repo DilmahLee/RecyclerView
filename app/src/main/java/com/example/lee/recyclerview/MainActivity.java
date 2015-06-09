@@ -58,8 +58,8 @@ public class MainActivity extends ActionBarActivity {
         toolbar.setNavigationIcon(R.drawable.ab_android);
         // Menu item click 的監聽事件一樣要設定在 setSupportActionBar 才有作用
         toolbar.setOnMenuItemClickListener(onMenuItemClick);
-        Button btn = (Button) findViewById(R.id.button01);
-
+        //Button btn = (Button) findViewById(R.id.button01);
+        CustumFloatButton btn = (CustumFloatButton) findViewById(R.id.fab);
 
 
 
